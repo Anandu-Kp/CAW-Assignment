@@ -1,0 +1,40 @@
+.main-container {
+    margin: .5rem 3rem;
+    padding: 30px;
+    border: 1px solid rgba(102, 102, 102, 0.411);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.main-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    border: 1px solid rgba(102, 102, 102, 0.411);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.search>input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.main-top-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}

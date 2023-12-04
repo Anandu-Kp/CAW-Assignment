@@ -1,0 +1,43 @@
+.nav {
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--green);
+}
+
+.left-nav {
+    display: flex;
+    gap: 2rem;
+    margin-left: 3rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav span {
+    color: var(--text-grey);
+    cursor: pointer;
+}
+
+.nav span:hover {
+    color: rgb(255, 255, 255);
+}
+
+.left-nav img {
+    height: 50px;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 3rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.right-nav>div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

@@ -1,0 +1,31 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem 3rem;
+
+}
+
+.header-top {
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.order-id {
+    text-decoration: underline;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bottom>div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}

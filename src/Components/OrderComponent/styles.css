@@ -1,0 +1,8 @@
+.order-container {
+    display: grid;
+    margin: 1rem 3rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid rgba(102, 102, 102, 0.411);
+    border-radius: 20px;
+
+}
